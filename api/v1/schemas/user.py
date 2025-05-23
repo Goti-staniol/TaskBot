@@ -21,5 +21,5 @@ class CreateUser(BaseModel):
     created_at: datetime
     
 
-class GetUser(BaseUser):
+class UserInfo(BaseUser):
     pass
